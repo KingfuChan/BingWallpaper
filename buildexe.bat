@@ -1,0 +1,2 @@
+cd bingwallpaper
+pyinstaller bingwallpaper.spec
