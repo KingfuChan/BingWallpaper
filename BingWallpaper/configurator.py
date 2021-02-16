@@ -18,8 +18,8 @@ class MyWindow(QMainWindow, Ui_Dialog):
         super(MyWindow, self).__init__(parent)
         self.setupUi(self)
         # set and lock window size
-        mySize = (self.gridLayoutWidget.width(),
-                  self.gridLayoutWidget.height())
+        mySize = (self.MainWindow.width(),
+                  self.MainWindow.height())
         self.resize(*mySize)
         self.setMaximumSize(*mySize)
         self.setMinimumSize(*mySize)
